@@ -43,6 +43,15 @@ class _MyPageState extends State<MyPage> {
         ],
         elevation: 6,
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
+      floatingActionButton: FloatingActionButton.extended(
+          onPressed: () {},
+          backgroundColor: Colors.black,
+          label: Text('글 추가'),
+          icon: Icon(
+            Icons.add,
+            color: Colors.grey,
+          )),
     );
   }
 }
